@@ -17,6 +17,13 @@ machine-database:
       features: TRIM
       inkstitch-version: 1.27.2
       comments: Das ist ein Test. Kommentare, Kommentare!
+      
+      - name: Memory Craft MC350
+      file-formats: JEF
+      features: TRIM at color change only, max 78 colors/trims per file
+      inkstitch-version: 1.28.0
+      comments: experiments with this machine show that it trims automatically at color change and pauses. Ff the file contains more than 78 color changes the machine won't recognize it.
+      
   - brand: Brother
     machines:
     - name: Test
